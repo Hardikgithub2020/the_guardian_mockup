@@ -21,6 +21,9 @@ function App() {
     <div className="App">
       <Header/>
       <Headlines />
+      <div>
+        <img src={require("./Components/images/Pandamic.png")} style={{ width: "100%", height: "50%" }}/>
+      </div>
       <Spotlight/>
       <Opinion />
       <Sports />

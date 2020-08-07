@@ -1,12 +1,27 @@
 #headlinesSection{
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows:repeat(5,16vh);
+    grid-template-rows:repeat(5,10vh);
     grid-gap :1px;
 }
 #headlinesSection1{
     grid-area: 1/1/3/4;
     background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+#headlinesSection1 > div >hr {
+    margin-top: 2px;
+    border-color: white;
+    width: 50%;
+}
+#headlinesSection1 > header{
+    grid-area: 1/1/5/2;
+    color: white;
+}
+#headlinesSection1Image {
+    grid-area: 1/2/5/4;
 }
 #headlinesSection3{
     grid-area: 3/1/6/3;

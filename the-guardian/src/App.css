@@ -5,7 +5,7 @@
   
 }
 .main{
-  height:80vh;
+  height:50vh;
   width: 80vw;
   background-color: white;
   margin-right: 10vw;
@@ -15,9 +15,12 @@
   display: flex;
   
 }
+span{
+  color : red
+}
 
 aside{
-  flex : 1;
+  flex : 1.5;
   border: solid 1px grey;
   overflow: auto;
   
