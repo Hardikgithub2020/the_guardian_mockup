@@ -1,0 +1,35 @@
+#opinionSection{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(5,20%);
+    
+}
+#opinionSection1{
+    grid-area: 1/1/3/3;
+    margin: 5px;
+    background-color: rgb(255, 251, 252);
+}
+#opinionSection2{
+    grid-area: 1/3/3/4;
+    border: medium 1px grey;
+    border-left: solid 1px grey; 
+    padding: 5px;  
+    background-color: rgb(255, 251, 252);  
+}
+#opinionSection3{
+    grid-area: 3/1/6/3;
+    background-color: rgb(255, 251, 252);
+    padding: 5px;  
+}
+#opinionSection3Child{
+    display: flex;
+    border-top: solid 2px red;   
+}
+
+
+#opinionSection4{
+    grid-area: 1/4/3/5;
+    border-left: solid 1px grey; 
+    padding: 5px; 
+    background-color: rgb(255, 251, 252); 
+}
